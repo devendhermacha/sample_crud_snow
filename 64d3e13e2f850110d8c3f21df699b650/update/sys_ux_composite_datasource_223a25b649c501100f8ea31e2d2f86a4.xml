@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <encoded_query_script/>
+        <name>My requests - task dataset</name>
+        <sort_by>number</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-18 09:33:21</sys_created_on>
+        <sys_id>223a25b649c501100f8ea31e2d2f86a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My requests - task dataset</sys_name>
+        <sys_package display_value="sample_test_app" source="x_217453_sample_0">64d3e13e2f850110d8c3f21df699b650</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sample_test_app">64d3e13e2f850110d8c3f21df699b650</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_223a25b649c501100f8ea31e2d2f86a4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-18 09:33:21</sys_updated_on>
+        <table>task</table>
+    </sys_ux_composite_datasource>
+</record_update>

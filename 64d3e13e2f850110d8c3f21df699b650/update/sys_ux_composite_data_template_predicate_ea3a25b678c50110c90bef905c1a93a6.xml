@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sc_request">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>number,request_state,due_date,description,opened_at,state,priority,price</field_list>
+        <name>Custom Portal Landing - My Requests Predicate</name>
+        <order/>
+        <predicate_bundle/>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-18 09:33:19</sys_created_on>
+        <sys_id>ea3a25b678c50110c90bef905c1a93a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal Landing - My Requests Predicate</sys_name>
+        <sys_package display_value="sample_test_app" source="x_217453_sample_0">64d3e13e2f850110d8c3f21df699b650</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sample_test_app">64d3e13e2f850110d8c3f21df699b650</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_ea3a25b678c50110c90bef905c1a93a6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-18 09:33:19</sys_updated_on>
+        <table>sc_request</table>
+        <ux_template display_value="Custom Portal Landing - My Requests template">ea3a25b62bc5011086796ee7d896c8a5</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

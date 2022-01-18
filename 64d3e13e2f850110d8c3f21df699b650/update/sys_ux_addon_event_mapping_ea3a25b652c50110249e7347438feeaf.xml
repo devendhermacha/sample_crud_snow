@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Related items Mapping</name>
+        <parent_macroponent display_value="Catalog Item Page">2e3a25b65ec501102a03367eaf537faf</parent_macroponent>
+        <source_da display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</source_da>
+        <source_element_id>data_row_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-18 09:33:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ea3a25b652c50110249e7347438feeaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related items Mapping</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="sample_test_app" source="x_217453_sample_0">64d3e13e2f850110d8c3f21df699b650</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sample_test_app">64d3e13e2f850110d8c3f21df699b650</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_ea3a25b652c50110249e7347438feeaf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-18 09:33:22</sys_updated_on>
+        <target_event display_value="Catalog item card clicked">6e3a25b680c501103e31782803c287af</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "sysId": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "sysId"
+        ]
+      }
+    },
+    "table": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "table"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

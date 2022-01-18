@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">a23a25b635c501109421c3e2ff00a69e</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-18 09:33:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ee3a25b66bc50110c114fd8df71365ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="sample_test_app" source="x_217453_sample_0">64d3e13e2f850110d8c3f21df699b650</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sample_test_app">64d3e13e2f850110d8c3f21df699b650</sys_scope>
+        <sys_update_name>m2m_app_config_theme_ee3a25b66bc50110c114fd8df71365ae</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-18 09:33:18</sys_updated_on>
+        <theme display_value="Light Theme">e63a25b634c50110b61dccbd21a0d29d</theme>
+        <ux_app_configuration display_value="sample_test_app Config">1a3a25b62fc50110d8c3f21df699b668</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

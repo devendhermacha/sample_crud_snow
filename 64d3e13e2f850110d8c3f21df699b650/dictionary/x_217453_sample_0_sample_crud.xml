@@ -2,6 +2,10 @@
     <element label="sample_crud" max_length="40" name="x_217453_sample_0_sample_crud" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="fasle" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Email" max_length="40" name="u_email" type="string"/>
+        <element label="IsApproved" max_length="40" name="u_is_approved" type="boolean"/>
+        <element label="Requested Amount" max_length="40" name="u_requested_amount" type="integer"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
