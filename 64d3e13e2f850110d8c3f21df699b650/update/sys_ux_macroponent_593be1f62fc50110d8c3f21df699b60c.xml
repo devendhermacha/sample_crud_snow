@@ -77,7 +77,7 @@
         },
         "name" : {
           "type" : "JSON_LITERAL",
-          "value" : null
+          "value" : "name"
         },
         "value" : {
           "type" : "JSON_LITERAL",
@@ -144,7 +144,30 @@
           "container" : [ ]
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "ckyjyfttjaaaaffbbddehhvjohangghp",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_input.NOW_INPUT#VALUE_SET",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_input.NOW_INPUT#VALUE_SET",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "f602b9b22f090110d8c3f21df699b631"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckyjyfttjaaaaffccddehhvzoiijjqhbbe",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
       "slot" : "Main",
       "definition" : {
         "id" : "bb0f92e8d7eff1590624bfe69d316f23",
@@ -220,7 +243,7 @@
         },
         "name" : {
           "type" : "JSON_LITERAL",
-          "value" : null
+          "value" : "email"
         },
         "value" : {
           "type" : "JSON_LITERAL",
@@ -287,7 +310,30 @@
           "container" : [ ]
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "ckyjzcciigkaaaahhnddehhvgbbybbbeat",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_input.NOW_INPUT#VALUE_SET",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_input.NOW_INPUT#VALUE_SET",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "f602b9b22f090110d8c3f21df699b631"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckyjzcciigkaaaahhoddehhvyhhrvbivee",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
       "slot" : "Main",
       "definition" : {
         "id" : "bb0f92e8d7eff1590624bfe69d316f23",
@@ -363,7 +409,7 @@
         },
         "name" : {
           "type" : "JSON_LITERAL",
-          "value" : null
+          "value" : "amount"
         },
         "value" : {
           "type" : "JSON_LITERAL",
@@ -430,7 +476,30 @@
           "container" : [ ]
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "ckyjzcchdddaaaahhpddehhvjjosomstv",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_input.NOW_INPUT#VALUE_SET",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_input.NOW_INPUT#VALUE_SET",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "f602b9b22f090110d8c3f21df699b631"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckyjzcchdddaaaahhqddehhvtfouxfyaa",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
       "slot" : "Main",
       "definition" : {
         "id" : "bb0f92e8d7eff1590624bfe69d316f23",
@@ -484,7 +553,30 @@
           "container" : { }
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "ckyjzgwccaaaaaaiijddehhvwyddccsmffm",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "9f0971fa2f090110d8c3f21df699b6c4"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckyjzgwccaaaaaaiikddehhvhhwycjjlbr",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
       "slot" : "Main",
       "definition" : {
         "id" : "d37ce8abca89d02905fed903c8e34d8e",
@@ -500,6 +592,43 @@
         "margin-top" : "12px",
         "margin-left" : "12px"
       }
+    }, {
+      "elementId" : "label_value_4",
+      "elementLabel" : "Label value 4",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "value" : {
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "1.0.0",
+            "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {any} params.imports\n  */\nfunction evaluateProperty({api}) {\n\treturn \"User Input \"+ api.state.name;\n}"
+          }
+        },
+        "reversed" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "truncated" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "bb63b710d208796b7ceaab7812bddef1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
     } ],
     "layout" : {
       "default" : {
@@ -523,7 +652,17 @@
   }
 } ]</composition>
         <da_relay_models/>
-        <data>[ ]</data>
+        <data>[ {
+  "definition" : {
+    "id" : "beda4252770300108d070d74c810618f",
+    "type" : "GRAPHQL"
+  },
+  "elementId" : "create_record_1",
+  "elementLabel" : "Create Record 1",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
+} ]</data>
         <dispatched_events/>
         <events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
@@ -577,18 +716,51 @@
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
+        <state_properties>[ {
+  "name" : "name",
+  "label" : "name",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "email",
+  "label" : "email",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "amount",
+  "label" : "amount",
+  "fieldType" : "number",
+  "valueType" : "number",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-18 09:37:32</sys_created_on>
         <sys_id>593be1f62fc50110d8c3f21df699b60c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>homepage</sys_name>
         <sys_package display_value="sample_test_app" source="x_217453_sample_0">64d3e13e2f850110d8c3f21df699b650</sys_package>
         <sys_policy/>
         <sys_scope display_value="sample_test_app">64d3e13e2f850110d8c3f21df699b650</sys_scope>
         <sys_update_name>sys_ux_macroponent_593be1f62fc50110d8c3f21df699b60c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-18 09:56:53</sys_updated_on>
+        <sys_updated_on>2022-01-18 10:38:40</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

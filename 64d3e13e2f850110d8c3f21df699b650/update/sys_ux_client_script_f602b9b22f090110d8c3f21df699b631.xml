@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="homepage">593be1f62fc50110d8c3f21df699b60c</macroponent>
+        <name>Input_value_set</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+    console.log('Event', event.payload);
+    
+    const { name , value} = event.payload;
+
+    if( name && value ) {
+        
+            api.setState(name, event.payload.value);
+
+    }
+
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-18 10:07:25</sys_created_on>
+        <sys_id>f602b9b22f090110d8c3f21df699b631</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Input_value_set</sys_name>
+        <sys_package display_value="sample_test_app" source="x_217453_sample_0">64d3e13e2f850110d8c3f21df699b650</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sample_test_app">64d3e13e2f850110d8c3f21df699b650</sys_scope>
+        <sys_update_name>sys_ux_client_script_f602b9b22f090110d8c3f21df699b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-18 10:26:44</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>
